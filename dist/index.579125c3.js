@@ -7,7 +7,7 @@ if (window.File && window.FileReader && window.FileList && window.Blob) {
         var textFile = /text.*/;
         if (file.type.match(textFile)) reader.onload = function(event) {
             preview.innerHTML = event.target.result;
-            highlightText("Em \xf4m ch\xfa v\xe0o l\xf2ng v\xe0 th\u1EE7 th\u1EC9:");
+            highlightText("happiness, health, joy, peace, and so much more that\u2019s positive");
         };
         else preview.innerHTML = "<span class='error'>It doesn't seem to be a text file!</span>";
         reader.readAsText(file);

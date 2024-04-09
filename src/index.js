@@ -10,8 +10,7 @@ if (window.File && window.FileReader && window.FileList && window.Blob) {
      if (file.type.match(textFile)) {
         reader.onload = function (event) {
            preview.innerHTML = event.target.result;
-           highlightText("Em ôm chú vào lòng và thủ thỉ:")
-
+           highlightText("happiness, health, joy, peace, and so much more that’s positive")
         }
 
      } else {

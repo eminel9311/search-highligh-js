@@ -1,6 +1,6 @@
 # Search and Highlight
 
-A brief description of your project.
+![alt text](image.png)
 
 ## Table of Contents
 
